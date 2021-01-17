@@ -26,9 +26,9 @@ body {
     
     display: grid;
     
-    grid-template-rows: 40px 80vh repeat(4, 400px) 300px 200px;
+    grid-template-rows: 40px 85vh repeat(4, minmax(min-content, 20rem)) 300px 200px;
     
-    grid-template-columns: [page-start extra-start] minmax(20px, 1fr) [sidebar-end content-start] 
-                           repeat(6, [col-start] minmax(min-content, 140px) [col-end]) 
+    grid-template-columns: [page-start extra-start] minmax(min-content, 1fr) [sidebar-end content-start] 
+                           repeat(6, [col-start] minmax(min-content, 1fr) [col-end]) 
                            [content-end]minmax(min-content, 1fr)[page-end];
 }

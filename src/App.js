@@ -14,9 +14,9 @@ function App() {
 
       <Landing></Landing>
 
-      <Description></Description>
-
       <Skills></Skills>
+
+      <Description></Description>
 
       <Projects></Projects>
 

@@ -1,27 +1,41 @@
 .contact {
     background-color: rgb(52, 68, 117);
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
 }
 
 .description {
     background-color: rgb(52, 117, 103);
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
 }
 
 .footer {
     background-color: rgb(71, 124, 76);
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
 }
 
 .landing {
-    // background-image: linear-gradient(-75deg, 
-    //                   rgba(255, 255, 255, 0.4) 40%,
-    //                   rgb(232, 252, 244) 40%);
-    // grid-row: landing-start / landing-end;
-    // background-color: rgb(201, 175, 26);
-    // grid-column: 1 / -1;
- 
+    grid-column: page-start / page-end;
+    background-image: linear-gradient(
+        -76deg,
+        rgba($color-1-light, .8) 0%,
+        rgba($color-1, .7) 30.5%,
+        rgba($color-1, .7) 42.5%,
+        rgba($color-4, .6) 41.5%, 
+        rgba($color-4, .6) 43%,
+        rgba($color-5, .6) 41.5%, 
+        rgba($color-5, .6)  43.75%,
+        $color-white 43.75%),
+        url('../../media/lights.jpg');
+    background-size: cover;
+    background-position: right;
+        
 }
 
-.navbar {
-    background-color: rgb(112, 112, 112);
+.nav-container {
+    background-color: $color-white;
     color: white;
     font-size: 1.6rem;
     grid-row: 1 / 1;
@@ -30,8 +44,7 @@
 
 .projects {
     background-color: rgb(169, 197, 65);
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
 }
 
-.skills {
-    background-color: rgb(64, 136, 136);
-}
