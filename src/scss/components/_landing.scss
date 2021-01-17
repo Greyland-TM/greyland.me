@@ -1,0 +1,53 @@
+.land {
+    grid-column: page-start / page-end;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 8rem 3rem;
+    color: $font-color-1;
+
+    &__heading {
+        display: flex;
+        grid-template-columns: repeat(8, 1fr);
+        width: 50%;
+        flex-direction: column;
+        justify-items: center;
+        padding: 60px 10px 0 10px;
+
+        &--image {
+            grid-column: 6 / -1;
+            width: 40rem;
+            object-fit: cover;
+            z-index: -1;
+        }
+    
+        &--me {
+            font-size: 4rem;
+            
+        }
+    
+        &--skills {
+            font-size: 2rem;
+            padding-bottom: 20px;
+            border-bottom: 1px solid $color-4;
+            border-top: 1px solid $color-5;
+        }
+    }
+}
+
+.gradient-1 {
+    background-image: linear-gradient(
+        -76deg,
+        rgba($color-1-light, .8) 0%,
+        rgba($color-1, .7) 30.5%,
+        rgba($color-1, .7) 42.5%,
+        rgba($color-4, .6) 41.5%, 
+        rgba($color-4, .6) 43%,
+        rgba($color-5, .6) 41.5%, 
+        rgba($color-5, .6)  43.75%,
+        $color-white 43.75%);
+        z-index: 10;
+}
+
+.gradient-2 {
+    
+}
