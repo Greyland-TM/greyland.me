@@ -22,11 +22,10 @@ body {
 .container {
     width: 100%;
     margin: 0 auto;
-    background-color: #ddd;
     
     display: grid;
     
-    grid-template-rows: 40px 85vh repeat(4, minmax(min-content, 20rem)) 300px 200px;
+    grid-template-rows: 0px 90vh repeat(4, minmax(min-content, 20rem)) 300px 200px;
     
     grid-template-columns: [page-start extra-start] minmax(min-content, 1fr) [sidebar-end content-start] 
                            repeat(6, [col-start] minmax(min-content, 1fr) [col-end]) 
