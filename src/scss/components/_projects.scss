@@ -5,7 +5,7 @@
 
     display: grid;
     grid-template-columns: repeat(3, minmax(min-content, 1fr));
-    grid-template-rows: 10rem max-content;
+    grid-template-rows: 10rem max-content  max-content;
     grid-gap: 6rem;
     padding: 5rem;
     justify-items: center;
@@ -13,5 +13,12 @@
     &__head {
         grid-column: 1 / -1;
         font-size: $header-1-2;
+        border-bottom: 1px solid $font-color-1;
+        align-self: center;
+    }
+
+    &__btn {
+        grid-column: 2 / 2;
+        grid-row: 3 / 3;
     }
 }

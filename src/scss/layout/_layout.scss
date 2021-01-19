@@ -21,14 +21,7 @@
         url('../../media/car.jpg');
     background-size: cover;
     background-position: right;
-
-    // background-attachment: fixed;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
 }
-
-
 
 .contact {
     background-color: rgb(52, 68, 117);
@@ -42,14 +35,6 @@
     grid-row: 7 / 8;
 }
 
-
-
-
-
-
-
-
-
 .btn {
     text-decoration: none;
     border: none;
@@ -57,9 +42,40 @@
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 .75rem 1rem rgba(0, 0, 0, .3);
+    display: inline-block;
+    font-size: $text-1;
 
     &:hover {
         background-color: $color-5;
+        cursor: pointer;
+    }
+}
+
+.btn-2 {
+    text-decoration: none;
+    border: none;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 .75rem 1rem rgba(0, 0, 0, .3);
+    display: inline-block;
+    transition: all .2s;
+
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:active,
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+        background-color: rgb(54, 54, 54);
+        cursor: pointer;
     }
 }
 
