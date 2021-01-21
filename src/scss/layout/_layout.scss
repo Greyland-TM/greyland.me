@@ -23,22 +23,11 @@
     background-position: right;
 }
 
-.contact {
-    background-color: rgb(52, 68, 117);
-    grid-column: 1 / -1;
-    grid-row: 6 / 7;
-}
-
-.footer {
-    background-color: rgb(71, 124, 76);
-    grid-column: 1 / -1;
-    grid-row: 7 / 8;
-}
-
 .btn {
     text-decoration: none;
     border: none;
-    background-color: $color-5-light;
+    background-color: $color-2-dark;
+    color: white;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 .75rem 1rem rgba(0, 0, 0, .3);
@@ -46,7 +35,7 @@
     font-size: $text-1;
 
     &:hover {
-        background-color: $color-5;
+        background-color: $color-2-dark;
         cursor: pointer;
     }
 }

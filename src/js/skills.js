@@ -37,7 +37,7 @@ const Skills = () => (
         <div className="skills__item">
             <div className="skills__title">
                 <IoBriefcase className='skills__icon'/>
-                <h2 className="skills__head">Buisness automation</h2>
+                <h2 className="skills__head">Business automation</h2>
             </div>
             <p className="skills__text">Dont waste time on repetitive tasks. I'll develope solutions to save your company time.</p>
             <button className="btn skills__btn">Tell me more &rarr; </button>

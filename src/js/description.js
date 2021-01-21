@@ -37,11 +37,11 @@ const Description = () => (
                 </p>
                 <h3 className="description__content--head">What about specifics?</h3>
                 <p className="description__content--text">
-                    There are two major things I do very well. The first is front end development and design. And together we can create
-                    the perfect page for your needs. 
+                    There are two major things I do very well. The first is <span>front end</span> &nbsp;development / design. 
+                    And together we can <span>create</span> &nbsp;the perfect page for your needs. 
                 </p>
                 <p className="description__content--text margin-bottom-sm">
-                    And the second is building complex and automated Microsoft applications. Using VBA I can make managing your
+                    And the second is building complex and automated <span>Microsoft applications</span>. Using VBA I can make managing your
                     buisness significantly easier.
                 </p>
                 <div className="btn description__btn">Learn about Greyland &rarr;</div>
