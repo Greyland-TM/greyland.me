@@ -12,7 +12,7 @@ const Footer = () => (
             </ul>
         </div>
         <div className="footer__copyright">
-            <p className='footer__copyright--text'>&copy; This page was designed and developed entirely by Greyland Miller. All rights reserved.</p>
+            <p className='footer__copyright--text'>&copy; This page was designed and developed entirely by Greyland Miller. 2021 All rights reserved.</p>
         </div>
     </div>
 );

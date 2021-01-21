@@ -1,5 +1,8 @@
 .skills {
-    background-color: $color-white;
+    // background-color: $color-white; // FOR LIGHT MODE
+    background-color: rgba($color-black-2, 1); // FOR DARK MODE
+    color: $color-white-3; // FOR DARK MODE
+
     grid-column: 1 / -1;
     grid-row: 3 / 4;
     display: grid;
@@ -19,6 +22,7 @@
         &:hover {
             box-shadow: 0 .5rem 1rem rgba(black, .15);
             transform: scale(1.05);
+            background-color: rgba($color-black-1, 1); // FOR DARK MODE
         }
 
         &:hover > * {
@@ -32,6 +36,7 @@
         grid-column: 1 / -1;
         grid-row: 1;
         padding-top: 2rem;
+        font-family: $font-main;
     }
 
     &__head {
@@ -44,12 +49,14 @@
         grid-column: 1 / -1;
         grid-row: 2; 
         padding: 2rem;
+        font-family: 'Merriweather', serif;
     }
 
     &__icon {
         height: 3rem;
         width: 3rem;
-        color: $color-2;
+        color: $color-2-dark;
+        color: $color-3;
     }
 
     &__btn {

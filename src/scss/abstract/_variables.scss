@@ -1,5 +1,12 @@
 
 // primary colors
+
+$color-black-0: black;
+$color-black-1: rgb(24, 24, 24);
+$color-black-2: rgb(32, 32, 32);
+$color-black-3: rgb(41, 41, 41);
+
+
 $font-color-1: rgb(56, 56, 56);
 
 $color-white: rgb(255, 255, 255);
@@ -14,7 +21,7 @@ $color-1-light: #748081;
 
 $color-2: #084F52;
 $color-2-dark:#136a6d;
-$color-2-light:#62bfc2;
+$color-2-light:#24888b;
 
 $color-3: #10999E;
 $color-3-light: #10999E;
@@ -36,4 +43,7 @@ $header-3: 2rem;
 
 $text-1: 1.4rem;
 $text-2: 1.7rem;
+
+// Fonts
+$font-main: 'Merriweather', serif;
 

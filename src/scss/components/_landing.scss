@@ -6,8 +6,7 @@
     grid-gap: 1.5rem;
     padding: 3rem 0 3rem 3rem;
     align-items: center;
-
-    
+    font-family: $font-main;
 
     &__me {
         font-size: $header-1;
@@ -20,7 +19,7 @@
         padding: 20px 0;
         grid-column: 1 /4;
         grid-row: 3 /4;
-        border-bottom: 1px solid $color-4;
-        // border-top: 1px solid $color-5;
+        // border-bottom: 1px solid $color-4;
+        border-top: 1px solid $color-5;
     }
 }
